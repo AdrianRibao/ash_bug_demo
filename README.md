@@ -17,3 +17,11 @@ The domain is `bookings` and the resources are:
 
 * `Helpdesk.Bookings.Service`: The "parent" resource.
 * `Helpdesk.Bookings.Stage`: The embedded resource.
+
+## Test
+
+There is a test to reproduce the error:
+
+```
+mix test test/helpdesk/service_test.exs
+```
