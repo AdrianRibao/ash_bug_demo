@@ -39,7 +39,7 @@ config :spark,
     "Ash.Domain": [section_order: [:resources, :policies, :authorization, :domain, :execution]]
   ]
 
-config :helpdesk, :ash_domains, [Helpdesk.Support]
+config :helpdesk, :ash_domains, [Helpdesk.Support, Helpdesk.Bookings]
 
 config :helpdesk,
   ecto_repos: [Helpdesk.Repo],

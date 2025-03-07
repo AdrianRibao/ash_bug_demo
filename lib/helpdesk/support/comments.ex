@@ -10,6 +10,7 @@ defmodule Helpdesk.Support.Comment do
     attribute :content, :string do
       allow_nil? false
       public? true
+      constraints min_length: 5
     end
 
     attribute :author, :string do
